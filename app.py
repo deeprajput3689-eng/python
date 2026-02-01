@@ -13,7 +13,7 @@ def cat_image():
 
 @app.route('/dog')
 def dog_image():
-    return send_from_directory(UPLOAD_FOLDER, 'dog.jpg.jpg')
+    return send_from_directory(UPLOAD_FOLDER, 'dog.jpg')
 
 @app.route('/table')
 def table_image():
